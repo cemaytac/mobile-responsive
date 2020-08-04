@@ -58,17 +58,29 @@ body {
       "footer footer";
   }
 
+  header {
+    font-size: 20px;
+    text-decoration: azure;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .img {
+    display: flex;
+    height: 15vh;
+  }
+
   .box {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 30vh;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 50vh;
     grid-area: content;
   }
 
   .flexy {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     grid-area: content;
@@ -76,9 +88,9 @@ body {
     background-color: #FDFDFD;
     height: 30vh;
   }
-}
 
-.flex2 {
-  display: flex;
+  .flex2 {
+    display: flex;
 
+  }
 }
